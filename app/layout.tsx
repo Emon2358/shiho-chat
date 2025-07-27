@@ -1,5 +1,5 @@
 // app/layout.tsx
-import './globals.css';
+import './global.css';
 
 export const metadata = {
   title: 'しほチャット',
