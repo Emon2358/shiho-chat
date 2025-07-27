@@ -1,26 +1,20 @@
 {
   "compilerOptions": {
-    "target": "es2020",                       // 出力する JS のバージョン
-    "lib": ["dom", "dom.iterable", "esnext"],// 利用するライブラリ
-    "allowJs": true,                          // .js ファイルも許可
-    "skipLibCheck": true,                     // 型定義チェックの高速化
-    "strict": true,                           // 厳格モード（おすすめ）
-    "forceConsistentCasingInFileNames": true, // 大文字小文字のファイル名一貫性
-    "noEmit": true,                           // tsc 実行時に JS を出力しない
-    "esModuleInterop": true,                  // CommonJS モジュールの互換
-    "module": "esnext",                       // モジュール方式
+    "target": "es2020",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
     "moduleResolution": "node",
-    "resolveJsonModule": true,                // .json インポート許可
-    "isolatedModules": true,                  // ファイル単位でのチェック
-    "jsx": "preserve",                        // JSX は Next.js に委譲
-    "incremental": true                       // 増分ビルド
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
